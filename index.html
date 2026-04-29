@@ -6,24 +6,23 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 <body>
-  <main>
-    <section id="home">
-      <h1>Tanya Client Portal</h1>
-      <p>Welkom. Hierdie portaal gee jou toegang tot jou goedgekeurde modules en worksheets.</p>
 
-      <div id="loginBox">
-        <input id="email" type="email" placeholder="Email">
-        <input id="password" type="password" placeholder="Password">
-        <button onclick="login()">Login</button>
-      </div>
+<h1>Tanya Client Portal</h1>
 
-      <button id="logoutBtn" onclick="logout()" hidden>Logout</button>
-    </section>
+<div id="loginBox">
+  <input id="email" placeholder="Email">
+  <input id="password" type="password" placeholder="Password">
+  <button onclick="login()">Login</button>
+</div>
 
-    <section id="modules"></section>
-    <section id="weeks"></section>
-  </main>
+<button onclick="logout()" id="logoutBtn" hidden>Logout</button>
 
-  <script src="app.js"></script>
+<h2>Modules</h2>
+<div id="modules"></div>
+
+<h2>Weeks</h2>
+<div id="weeks"></div>
+
+<script src="app.js"></script>
 </body>
 </html>
