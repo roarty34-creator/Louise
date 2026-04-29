@@ -1,41 +1,26 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #071821;
+  background: #0b1f2a;
   color: white;
-}
-
-main {
-  max-width: 900px;
-  margin: auto;
+  font-family: Arial;
   padding: 20px;
-}
-
-section {
-  background: #0d2a38;
-  padding: 18px;
-  border-radius: 18px;
-  margin-bottom: 18px;
 }
 
 input, button {
   width: 100%;
-  padding: 14px;
+  padding: 12px;
   margin-top: 10px;
-  border-radius: 12px;
+  border-radius: 10px;
   border: none;
-  font-size: 16px;
 }
 
 button {
-  background: #27c2a5;
-  color: #05201c;
+  background: #00c9a7;
   font-weight: bold;
 }
 
 .card {
-  background: #123949;
-  padding: 14px;
-  border-radius: 14px;
-  margin-top: 12px;
+  background: #123;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 10px;
 }
